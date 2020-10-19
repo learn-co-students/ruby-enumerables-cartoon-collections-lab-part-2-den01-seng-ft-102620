@@ -14,7 +14,7 @@ def long_planeteer_calls(array)
 end
 
 def find_valid_calls(mixed_calls)
-  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+ valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  mixed_calls.find {|value| valid_calls.include?(value)}
 end
 

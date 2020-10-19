@@ -38,7 +38,7 @@ describe "./cartoon_collections.rb" do
   describe "find_valid_calls" do
     describe "takes in an array of strings" do
       it "checks for and valid planeteer calls and returns the first found if present" do
-        expect( (["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])).to eq("Earth!")
+        expect(find_valid_calls(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])).to eq("Earth!")
         expect(find_valid_calls(["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"])).to eq("Wind!")
       end
 
